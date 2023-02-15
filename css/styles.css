@@ -1,54 +1,58 @@
-/* Set body and text styles */
 body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-    padding: 20px;
-  }
-  
-  h1 {
-    font-size: 36px;
-    margin-top: 0;
-  }
-  
-  h2 {
-    font-size: 28px;
-    margin-top: 0;
-  }
-  
-  h3 {
-    font-size: 22px;
-    margin-top: 30px;
-  }
-  
-  p, ul {
-    margin-bottom: 20px;
-  }
-  
-  /* Set section-specific styles */
-  ul {
-    padding-left: 20px;
-  }
-  
-  /* Style the contact me link */
-  a {
-    color: #428bca;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Set a background color and some padding for the entire page */
-  body {
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-  
-  /* Center the content of the page */
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 20px;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 0;
+  text-align: center;
+}
+
+h3 {
+  font-size: 22px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+p, ul {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+ul {
+  padding-left: 20px;
+ 
+}
+
+a {
+  color: #428bca;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#PP {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
